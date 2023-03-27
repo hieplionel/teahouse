@@ -1,0 +1,56 @@
+:root {
+    --text-color: #282828;
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: rgb(77, 138, 84);
+    --border-color: #eeeeee;
+    --header-nav: 46px;
+    --header-height: 170px;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Animation */
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from ));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes leftGrowth {
+    from{
+        opacity: 0;
+        left: 0;
+    }
+    to {
+        opacity: 1;
+        right: 100%;
+    }
+}
+

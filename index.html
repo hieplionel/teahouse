@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <link rel="icon" href="./assets/img/header_picture.webp"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css" >
+    <link rel="stylesheet" href="./assets/css/index1.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400, 500, 700&display=swap&subset=vietnamese" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app">
+        <!-- HEADER -->
+        <div class="header">
+
+            <!-- Nav header -->
+            <header class="header__nav">
+                <div class="grid wide">
+                    <nav class="nav__header">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <i class="nav__list-icon fa-solid fa-phone"></i>
+                                <a href="" class="nav__list-link-left">Hotline:</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="" class="nav__list-link-phone">0985474298</a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav__list">
+                            <li class="nav__list-item nav__list-display ">
+                                <a href="#" class="nav__list-link-right">
+                                    <i class="nav__search-icon fa-solid fa-magnifying-glass"></i>
+                                    <span class="nav__search">Tìm kiếm</span>
+                                </a>
+
+                                <div class="nav__search-hover">
+                                    <input type="text" class="nav__search-hover-input" placeholder="Tìm kiếm...">
+                                    <i class="nav__search-hover-icon fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </li>
+                            <li class="nav__list-item nav__list-display">
+                                <a href="#" class="nav__list-link-right">
+                                    <i class="nav__user-icon fa-solid fa-user"></i>
+                                    <span class="nav__user">Tài khoản</span>
+                                </a>
+                                <ul class="nav__list-user">
+                                    <li class="nav__list-user-item">
+                                        <a href="#" class="nav__list-user-link">Đăng ký</a>
+                                    </li>
+                                    <li class="nav__list-user-item">
+                                        <a href="#" class="nav__list-user-link">Đăng nhập</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav__list-item nav__list-display">
+                                <a href="#" class="nav__list-link-right">
+                                    <i class="nav__cart-icon fa-solid fa-bag-shopping"></i>
+                                    <span class="nav__cart-icon-quantity">0</span>
+                                    <span class="nav__cart">Giỏ Hàng</span>
+                                </a>
+
+                                <div class="nav__cart-no-cart">
+                                    <img src="./assets/img/nocart.webp" alt="không có sản phẩm" class="nav__cart-no-cart-img">
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- Category: Phân loại -->
+                <div class="grid wide">
+                    <div class="header__category">
+                        <ul class="header__category-list">
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link header__category-item-color ">Trang chủ</a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">Giới thiệu</a>
+                            </li>
+                            <li class="header__category-item">
+                                <a class="header__category-link">
+                                    Sản phẩm    
+                                    <i class="header__category-link-icon fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="header__category-menu">
+                                    <li class="header__category-menu-item">
+                                        <a href="" class="header__category-menu-link">Cà phê</a>
+                                    </li>
+                                    <li class="header__category-menu-item">
+                                        <a href="" class="header__category-menu-link">Bánh ngọt</a>
+                                    </li>
+                                    <li class="header__category-menu-item">
+                                        <a href="" class="header__category-menu-link">Smoothies</a>
+                                    </li>
+                                    <li class="header__category-menu-item">
+                                        <a href="" class="header__category-menu-link">Trà hoa quả</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="header__category-img">
+                            <a href="" class="header__category-link">
+                                <img src="./assets/img/header_picture.webp" alt="logo">
+                            </a>
+                        </div>
+                        <ul class="header__category-list">
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">Tin tức</a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">Khuyến mãi</a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">Thực đơn</a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="slider">
+            <img src="./assets/img/slider_1.webp" alt="silder">
+        </div>
+        <!-- CONTENT -->
+        <div class="app__container">
+
+            <!-- Start -->
+            <div class="body__product-header">
+                <div class="grid wide">
+                    <div class="content__header">
+                        <img src="./assets/img/title_base.webp" alt="logo-content" class="content__header-logo">
+                        <div class="content__header-title">danh mục sản phẩm</div>
+                    </div>
+
+                    <div class="row product__header-list">
+                        <div class="col l-3">
+                            <a href="" class="product__header-link">
+                                <img src="./assets/img/product_head-1.webp" alt="">
+                                <span class="product__header-name">Trà nóng</span>
+                            </a>
+                        </div>
+                        <div class="col l-3">
+                            <a href="" class="product__header-link">
+                                <img src="./assets/img/product_head-2.webp" alt="">
+                                <span class="product__header-name">Trà hoa quả</span>
+                            </a>
+                        </div>
+                        <div class="col l-3">
+                            <a href="" class="product__header-link">
+                                <img src="./assets/img/product_head-3.webp" alt="">
+                                <span class="product__header-name">Smoothies</span>
+                            </a>
+                        </div>
+                        <div class="col l-3">
+                            <a href="" class="product__header-link">
+                                <img src="./assets/img/product_head-4.webp" alt="">
+                                <span class="product__header-name">Bánh ngọt</span>
+                            </a>
+                        </div>
+                        <div class="col l-3">
+                            <a href="" class="product__header-link">
+                                <img src="./assets/img/product_head-1.webp" alt="">
+                                <span class="product__header-name">Trà lạnh</span>
+                            </a>
+                        </div>
+                        <div class="col l-3">
+                            <a href="" class="product__header-link">
+                                <img src="./assets/img/product_head-3.webp" alt="">
+                                <span class="product__header-name">Sinh tố</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End! -->
+
+            <!-- Start -->
+            <div class="body__about-wrap">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 body__about">
+                            <div class="content__header align-left">
+                                <img src="./assets/img/title_base.webp" alt="" class="content__header-logo content__header-logo-wrap">
+                                <div class="content__header-title content__header-wrap">Tại Sao Chọn Chúng Tôi</div>
+                            </div>
+                            
+
+                            <div class="body__about-text">
+                                <p>Với những nghệ nhân rang tâm huyết và đội ngũ tài năng cùng những câu chuyện trà đầy cảm hứng, ngôi nhà Tea House là không gian dành riêng cho những ai trót yêu say đắm hương vị của những lá trà tuyệt hảo.</p>
+                            </div>
+
+                            <ul class="body__about-list">
+                                <li class="body__about-item">
+                                    <img src="./assets/img/about-wrap-icon-1.webp" alt="" class="body__about-item-icon">
+
+                                    <div class="body__about-item-content">
+                                        <span class="body__about-item-head">Giá cả phải chăng</span>
+                                        <span class="body__about-item-text">Cam kết chỉ cung cấp cà phê có nguồn gốc được kiểm soát chất lượng</span>
+                                    </div>
+                                </li>
+
+                                <li class="body__about-item">
+                                    <img src="./assets/img/about-wrap-icon-2.webp" alt="" class="body__about-item-icon">
+
+                                    <div class="body__about-item-content">
+                                        <span class="body__about-item-head">Hương vị tuyệt hảo</span>
+                                        <span class="body__about-item-text">Những đọt trà được lựa chọn cẩn thận ngay từ lúc đang ngâm mình trong sương</span>
+                                    </div>
+                                </li>
+
+                                <li class="body__about-item">
+                                    <img src="./assets/img/about-wrap-icon-3.webp" alt="" class="body__about-item-icon">
+
+                                    <div class="body__about-item-content">
+                                        <span class="body__about-item-head">Sản phẩm tự nhiên</span>
+                                        <span class="body__about-item-text">Cam kết chỉ cung cấp lá trà có nguồn gốc được kiểm soát chất lượng chặt</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End! -->
+
+            <!-- BODY MENU -->
+            <!-- Start -->
+            <div class="body__menu-wrap">
+                <div class="grid wide">
+                    <div class="content__header align-center">
+                        <img src="./assets/img/title_base.webp" alt="" class="content__header-logo ">
+                        <div class="content__header-title">Menu Hôm Nay</div>
+                    </div>
+
+                    <ul class="body__menu-nav">
+                        <li class="body__menu-item">
+                            <a href="" class="body__menu-item-link body__menu-item--active">Trà nóng</a>
+                        </li>
+
+                        <li class="body__menu-item">
+                            <a href="" class="body__menu-item-link">Trà hoa quả</a>
+                        </li>
+
+                        <li class="body__menu-item">
+                            <a href="" class="body__menu-item-link">Smoothies</a>
+                        </li>
+
+                        <li class="body__menu-item">
+                            <a href="" class="body__menu-item-link">Bánh ngọt</a>
+                        </li>
+                    </ul>
+
+                    <div class="row body__menu-product">
+                        <div class="col l-3 menu__product-list ">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp1.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Phúc Bồn Tử</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp2.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Vải</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp3.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Cam Đào</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp4.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Táo</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp5.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Việt Quất</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp6.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Dâu Tây</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp7.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Xoài</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-3 menu__product-list">
+                            <a href="" class="menu__product-link">
+                                <div class="menu__poduct-link-btn">
+                                    <img src="./assets/img/sp8.webp" alt="" class="menu__product-img">
+                                    <button class="menu__product-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                <p class="menu__product-desc">Trà Chanh</p>
+                                <p class="menu__product-price">Giá:
+                                    <span>40.000đ</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End! -->
+
+            <!-- Start -->
+            <div class="body__time-wrap">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-7 body__time-left">
+                            <div class="body__time-left-wrap">
+                                <div class="content__header align-left">
+                                    <img src="./assets/img/title_base.webp" alt="" class="img-left content__header-logo ">
+                                    <div class="content__header-title content__header-wrap body__time-title">Thời Gian Mở Cửa</div>
+                                </div>
+                                <p class="body__time-left-text">
+                                    “Cà phê nhé" - Một lời hẹn rất riêng của người Việt.
+                                    Một lời ngỏ mộc mạc để mình ngồi lại bên nhau và sẻ chia câu chuyện của riêng mình.
+                                </p>
+
+                                <div class="body__time-item">T2 - T6: 8h30 - 21h30</div>
+                                <div class="body__time-item">T7 - CN: 8h00 - 22h00</div>
+
+                                <button class="body__time-btn">Đặt bàn ngay</button>
+                            </div>
+                        </div>
+                        <div class="col l-5 body__time-right"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End! -->
+
+            <!-- Start -->
+            <div class="body__news-wrap">
+                <div class="grid wide">
+                    <div class="content__header align-center">
+                        <img src="./assets/img/title_base.webp" alt="" class="content__header-logo">
+                        <div class="content__header-title">TIn Tức Nổi Bật</div>
+                    </div>
+                    <div class="row body__news-list">
+                        <div class="col l-4 body__news-item">
+                            <a href="" class="body__news-link">
+                                <img src="./assets/img/body-news-1.webp" alt="" class="body__news-link-img">
+                                <h2 class="body__news-link-title">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà phê chưa?</h2>
+                                <p class="body__news-link-desc">Cốc cafe vị đăng đắng,
+                                    lẫn thêm chút ngọt bùi của sữa đặc sao mà gây nghiện đến thế.
+                                    Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới tràn đầy năng lượng với người trẻ, 
+                                    sẵn sàng ch...
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-4 body__news-item">
+                            <a href="" class="body__news-link">
+                                <img src="./assets/img/body-news-2.webp" alt="" class="body__news-link-img">
+                                <h2 class="body__news-link-title">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà phê chưa?</h2>
+                                <p class="body__news-link-desc">Cốc cafe vị đăng đắng,
+                                    lẫn thêm chút ngọt bùi của sữa đặc sao mà gây nghiện đến thế.
+                                    Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới tràn đầy năng lượng với người trẻ, 
+                                    sẵn sàng ch...
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-4 body__news-item">
+                            <a href="" class="body__news-link">
+                                <img src="./assets/img/body-news-3.webp" alt="" class="body__news-link-img">
+                                <h2 class="body__news-link-title">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà phê chưa?</h2>
+                                <p class="body__news-link-desc">Cốc cafe vị đăng đắng,
+                                    lẫn thêm chút ngọt bùi của sữa đặc sao mà gây nghiện đến thế.
+                                    Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới tràn đầy năng lượng với người trẻ, 
+                                    sẵn sàng ch...
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-4 body__news-item">
+                            <a href="" class="body__news-link">
+                                <img src="./assets/img/body-news-4.webp" alt="" class="body__news-link-img">
+                                <h2 class="body__news-link-title">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà phê chưa?</h2>
+                                <p class="body__news-link-desc">Cốc cafe vị đăng đắng,
+                                    lẫn thêm chút ngọt bùi của sữa đặc sao mà gây nghiện đến thế.
+                                    Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới tràn đầy năng lượng với người trẻ, 
+                                    sẵn sàng ch...
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="col l-4 body__news-item">
+                            <a href="" class="body__news-link">
+                                <img src="./assets/img/body-news-5.webp" alt="" class="body__news-link-img">
+                                <h2 class="body__news-link-title">Nhâm nhi cà phê bao lâu nhưng bạn tận mắt nhìn kỹ xem hạt cà phê chưa?</h2>
+                                <p class="body__news-link-desc">Cốc cafe vị đăng đắng,
+                                    lẫn thêm chút ngọt bùi của sữa đặc sao mà gây nghiện đến thế.
+                                    Không chỉ cuốn hút ở mùi vị, một cốc cafe sáng còn giúp ngày mới tràn đầy năng lượng với người trẻ, 
+                                    sẵn sàng ch...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End! -->
+
+            <!-- Start -->
+            <div class="body__banner-wrap">
+                <div class="grid">
+                    <div class="row body__banner-list">
+                        <div class="col l-2-4 body__banner-item">
+                            <a href="" class="">
+                                <img src="./assets/img/slider_footer1.webp" alt="" class="body__banner-img">
+                            </a>
+                        </div>
+
+                        <div class="col l-2-4 body__banner-item">
+                            <a href="" class="">
+                                <img src="./assets/img/slider_footer2.webp" alt="" class="body__banner-img">
+                            </a>
+                        </div>
+
+                        <div class="col l-2-4 body__banner-item">
+                            <a href="" class="">
+                                <img src="./assets/img/slider_footer3.webp" alt="" class="body__banner-img">
+                            </a>
+                        </div>
+
+                        <div class="col l-2-4 body__banner-item">
+                            <a href="" class="">
+                                <img src="./assets/img/slider_footer4.webp" alt="" class="body__banner-img">
+                            </a>
+                        </div>
+
+                        <div class="col l-2-4 body__banner-item">
+                            <a href="" class="">
+                                <img src="./assets/img/slider_footer5.webp" alt="" class="body__banner-img">
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+            <!-- End! -->
+
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row footer-list">
+                    <div class="col l-4 footer-item">
+                        <a href="" class="footer-item-link">
+                            <img src="./assets/img/header_picture.webp" alt="" class="footer-item-img">
+                        </a>
+                        <p class="footer-item-desc">
+                            Chúng tôi mong muốn Tea House sẽ trở thành “Nhà Trà", 
+                            nơi mọi người xích lại gần nhau và tìm thấy niềm vui, 
+                            sự sẻ chia thân tình bên những tách cà phê đượm hương, chất lượng.
+                        </p>
+                        <div class="footer-item-icon">
+                            <a href="" class="footer-item-icon-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" class="footer-item-icon-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="footer-item-icon-link">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                            <a href="" class="footer-item-icon-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="footer-item-icon-link">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 footer-item">
+                        <h2 class="footer-item-head">
+                            LIÊN HỆ VỚI CHÚNG TÔI
+                        </h2>
+
+                        <div class="footer-item-desc-center">
+                            <div class="footer-item-desc-add">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Địa chỉ: Tầng 6 tòa nhà Ladeco, 266 Đội Cấn, phường Liễu Giai, Hà Nội, Việt Nam</span>
+                            </div>
+                            <div class="footer-item-desc-phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="footer-item-col">
+                                    <span class="footer-item-desc-phone-text">Hotline đặt bàn: 
+                                        <a href="" class="footer-item-desc-link">1900 6750</a>
+                                    </span>
+                                    <span class="footer-item-desc-phone-text">Hotline giao hàng: 
+                                        <a href="" class="footer-item-desc-link">1900 6750</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 footer-item">
+                        <h2 class="footer-item-head">ĐĂNG KÝ NHẬN KHUYẾN MÃI</h2>
+                        <div class="footer-item-col">
+                            <span class="footer-item-desc footer-item-desc-active">Đừng bỏ lỡ những sản phẩm và chương trình khuyến mãi hấp dẫn</span>
+                            <div class="footer-item-row">
+                                <input type="text" class="footer-item-mail" placeholder="Email của bạn">
+                                <button class="footer-item-btn">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Last footer -->
+            <div class="footer__last">
+                <p class="footer__last-text footer__last-text-before">© Bản quyền thuộc về Chu Hoang Hiep</p>
+                <p class="footer__last-text">Cung cấp bởi
+                    <a href="">HOANG HIEP 20</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
